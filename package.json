@@ -1,0 +1,31 @@
+{
+  "name": "Sequelize-The-Easy-Parts",
+  "version": "1.0.0",
+  "description": "This repository describes the ORM Sequelize and how to use it simply.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanmateen/Sequelize-The-Easy-Parts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanmateen/Sequelize-The-Easy-Parts/issues"
+  },
+  "homepage": "https://github.com/jordanmateen/Sequelize-The-Easy-Parts#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  }
+}
